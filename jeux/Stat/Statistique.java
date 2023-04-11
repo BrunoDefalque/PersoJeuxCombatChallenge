@@ -55,17 +55,7 @@ public class Statistique {
 		return "Statistique [nom=" + nom + ", description=" + description + ", valeur=" + valeur + "]";
 	}
 
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((nom == null) ? 0 : nom.hashCode());
-		result = prime * result + ((description == null) ? 0 : description.hashCode());
-		result = prime * result + valeur;
-		return result;
-	}
-
-	// Equales :
+	 // Equales :
 
 	@Override
 	public boolean equals(Object obj) {
