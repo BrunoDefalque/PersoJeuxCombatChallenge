@@ -3,7 +3,7 @@ package jeux;
 /**
  * Sort
  */
-public class Sort 
+public class Sort {
 
 	/ /Propriétés :
 
