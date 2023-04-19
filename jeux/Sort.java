@@ -130,8 +130,4 @@ public class Sort {
 		Sort sort = (Sort) object;
 		return niveauObtention == sort.niveauObtention && degatMin == sort.degatMin && degatMax == sort.degatMax && coutMana == sort.coutMana && isDegat == sort.isDegat && java.util.Objects.equals(nom, sort.nom) && java.util.Objects.equals(description, sort.description) && java.util.Objects.equals(element, sort.element);
 	}
-
-	public int hashCode() {
-		return java.util.Objects.hash(super.hashCode(), nom, description, niveauObtention, degatMin, degatMax, coutMana, isDegat, element);
-	}
 }
