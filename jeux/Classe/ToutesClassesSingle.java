@@ -1,6 +1,7 @@
 package jeux.Classe;
 
 import jeux.Sort;
+import jeux.Stat.StatistiqueBonus;
 
 /**
  * ToutesClassesSingle
@@ -13,6 +14,8 @@ public final class ToutesClassesSingle {
 
 	private ToutesClassesSingle() {
 	}
+
+	// Constructeur :
 
     public static jeux.Classe.ToutesClassesSingle getInstance() {
 
